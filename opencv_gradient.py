@@ -1,6 +1,6 @@
 import cv2
 
-'''梯度算法：常用来检测边缘'''
+'''梯度算法：常用来检测边缘 '''
 
 gray = cv2.imread('./img/OpenCV_Logo.png', cv2.IMREAD_GRAYSCALE) #梯度算法接收灰度图
 
