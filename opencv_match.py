@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 
 '''匹配算法'''
+'''想要匹配不同大小的菱形的图像，可以放大缩小图像'''
 
 image = cv2.imread('./img/poker.png')
 cv2.imshow('image', image)
