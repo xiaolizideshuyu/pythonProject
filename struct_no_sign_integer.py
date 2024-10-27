@@ -14,8 +14,7 @@ print(bb, bb.hex())
 # 解包
 aaa = struct.unpack('>i', aa)
 bbb = struct.unpack('>i', bb)
-print(aaa)
-print(bbb)
-print('22222222222222222')
+print(aaa,aaa[0])
+print(bbb,bbb[0])
 
-print(format(255, 'b') ,format(-255, 'b')) #返回二进制字符串
+print('打印正负255的2进制:',format(255, 'b') ,format(-255, 'b')) #返回二进制字符串
