@@ -17,4 +17,5 @@ bbb = struct.unpack('>i', bb)
 print(aaa)
 print(bbb)
 print('22222222222222222')
-print(format(255, 'b') ,format(-255, 'b'))
+
+print(format(255, 'b') ,format(-255, 'b')) #返回二进制字符串
